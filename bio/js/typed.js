@@ -1,0 +1,1 @@
+new Typed("#typed",{strings:["coder","real.toxic","go fuck yourself",],typeSpeed:50,backSpeed:100,backDelay:1e3,startDelay:120,loop:!0,showCursor:!1});
