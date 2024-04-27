@@ -25,7 +25,10 @@ html {
     font-weight: bold;
 }
 
-
+* {
+    cursor: url(https://reallytoxic.com/assets/finger.cur), auto !important;
+    }
+    
 .example::-webkit-scrollbar {
     display: none;
 }
