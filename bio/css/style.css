@@ -25,9 +25,6 @@ html {
     font-weight: bold;
 }
 
-* {
-    cursor: url(https://reallytoxic.com/assets/finger.cur), auto !important;
-    }
     
 .example::-webkit-scrollbar {
     display: none;
@@ -132,7 +129,7 @@ a:hover {
 
 #center2 {
     position: fixed;
-    bottom: 37%;
+    bottom: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -141,7 +138,7 @@ a:hover {
 
 #socials {
     position: fixed;
-    top: 62.5%;
+    top: 63.5%;
     left: 40%;
     right: 40%;
     text-align: center;
