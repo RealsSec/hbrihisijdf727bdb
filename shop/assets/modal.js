@@ -1,7 +1,7 @@
 // The amount of slides we have for each game
 let slideCounts = {
-    real: 1,
-    toxic: 2,
+    real: 2,
+    toxic: 1,
 }
 
 // slideshow shit
