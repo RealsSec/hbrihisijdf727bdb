@@ -20,6 +20,7 @@
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="https://embed.sellpass.io/embed.js"></script>
     </head>
 <body>
     <div>
@@ -32,9 +33,13 @@
             <div class="modalimg no-select" style="width: 50%; height:50%;">
                 <div>
                     <center>
+                        <!-- Converted the "Buy" span into a button element -->
+                        <button id="buy" data-sellpass-domain="realtoxicorg.sellpass.io" data-sellpass-product-path="Warzone-Camo-Service" style="font-size: 17px; display: block; margin-bottom: 10px;">Diamond Bundle</button>
+                        <button id="buy2" data-sellpass-domain="realtoxicorg.sellpass.io" data-sellpass-product-path="Warzone%20Camo%20ServiceR4iA5VRt" style="font-size: 17px; display: block; margin-bottom: 10px;">Platinum Bundle</button>
                         <img id="slide" class="slide" src="../images/real_slides/1.png" class="slide" width="90%" height="90%" draggable="false">
                         <br>
-                        <span style="font-size: 17px;display:inline-block; white-space: nowrap"><br>
+                        <span style="font-size: 17px; display: inline-block; white-space: nowrap">
+                            <br>
                             <span id="back">prev</span> | <span id="forward">next</span>
                         </span>
                     </center>
@@ -44,19 +49,15 @@
         <div class="content no-select">
             <div>
                 <center>
-                    <div onclick="openModal('toxic')" class="inner-card">
-                        <img src="../images/reallytoxiclogo.png" class="game-icon" draggable="false">
-                    </div>
                     <div onclick="openModal('real')" class="inner-card">
                         <img src="../images/camo.png" class="game-icon" draggable="false">
                     </div>
                 </center>
-                <div id="preload">
-                    
-                </div>
+                <div id="preload"></div>
             </div>
         </div>
     </div>
+    
 </body>
 <script src="../assets/title.js"></script>
 <script src="../assets/particles.js"></script>
